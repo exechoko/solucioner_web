@@ -1,15 +1,14 @@
 <?php
 $nombre = $_POST['nombre'];
 $correo_electronico= $_POST['staticEmail'];
-$opinion= $_POST['exampleFormControlTextarea1'];
-
+$opinion= $_POST['mensaje'];
 
 echo $_POST['nombre'];
 //echo $nombre . " " . $correo_electronico . " " . $opinion;
 
 $mensaje = "Este mensaje fue enviado por " . $nombre . " \r\n";
 $mensaje .= "Su e-mail es: " . $correo_electronico . " \r\n";
-$mensaje .="Mensaje: ".$_POST['opinion'] . " \r\n";
+$mensaje .="Mensaje: " .$opinion . " \r\n";
 $mensaje .= "Enviado el " . date('d/m/Y', time());
 
 $headers = "From: " . $correo_electronico;
