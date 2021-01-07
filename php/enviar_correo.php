@@ -3,9 +3,6 @@ $nombre = $_POST['nombre'];
 $correo_electronico= $_POST['staticEmail'];
 $opinion= $_POST['mensaje'];
 
-echo $_POST['nombre'];
-//echo $nombre . " " . $correo_electronico . " " . $opinion;
-
 $mensaje = "Este mensaje fue enviado por " . $nombre . " \r\n";
 $mensaje .= "Su e-mail es: " . $correo_electronico . " \r\n";
 $mensaje .="Mensaje: " .$opinion . " \r\n";
