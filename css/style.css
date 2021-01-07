@@ -688,12 +688,12 @@ template {
       margin: auto;
   	}
   	.mobiles-down {
-  		margin-top: 130px;
+          margin-top: 120px;/*130px*/
   	}
   	.mobiles-down a {
   		display: flex;
-  		margin: 0 auto;
-  		color: #fff;
+        margin: 0 auto;
+        color: #fff;
   		border: 2px solid #fff;
   		background-color: transparent;			
   		padding: 7px 27px 14px 23px;	
@@ -884,7 +884,7 @@ template {
      /*Video Plugin*/
     .video-background {
         background-image: url(../image/background-video.jpg);
-        background-size: cover;
+        background-size: cover;        
         background-repeat: no-repeat;
     }
     .video-row {
