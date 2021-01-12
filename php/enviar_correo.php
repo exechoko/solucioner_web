@@ -1,12 +1,12 @@
 <?php
 $nombre = $_POST['nombre'];
-$correo_electronico= $_POST['staticEmail'];
-$opinion= $_POST['mensaje'];
+$correo_electronico = $_POST['staticEmail'];
+$opinion = $_POST['opinion'];
 
 $mensaje = "Este mensaje fue enviado por " . $nombre . " \r\n";
 $mensaje .= "Su e-mail es: " . $correo_electronico . " \r\n";
-$mensaje .="Mensaje: " .$opinion . " \r\n";
-$mensaje .= "Enviado el " . date('d/m/Y', time());
+$mensaje .="Mensaje: " . $opinion . " \r\n";
+$mensaje .= "Enviado el " . date('d/m/Y h:i:s A', time());
 
 $headers = "From: " . $correo_electronico;
 
