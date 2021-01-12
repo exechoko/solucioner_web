@@ -14,7 +14,5 @@ $para = "appsolucionet@gmail.com";
 $asunto = "Contacto desde la web";
 
 mail($para, $asunto, utf8_decode($mensaje), $headers);
-
 echo 'Mensaje enviado correctamente';
-
 ?> 
